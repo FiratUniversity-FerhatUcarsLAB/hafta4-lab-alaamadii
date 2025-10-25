@@ -3,6 +3,7 @@ import java.util.Scanner;
  * ad soyadi : ALAA MADI
  * ogrenci no : 240541609
  * tarih : 25/10/2025
+ * Aciklama : Geometrik Hesaplayici - Gorev 2
  */
 public class GeometrikHesap {
     public static void main(String[] args){
