@@ -4,6 +4,7 @@ import java.util.Scanner;
  * ogrenci no : 240541609
  * tarih : 25/10/2025
  * Aciklama : Geometrik Hesaplayici - Gorev 2
+ * This program calculates the area and circumference of a circle and the input form the user
  */
 public class GeometrikHesap {
     public static void main(String[] args){
