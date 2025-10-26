@@ -15,19 +15,19 @@ public class GeometrikHesap {
         final double pi = 3.14159;
 
 
-        // Degisken tanimlamalari r = yaricap
+        // Degisken tanimlamalari raduios = yaricap
         System.out.println("=== GEOMETRIK HESAPLAYICI ===");
         System.out.println("Enter the radius of the circle:");
-        double r = myObject.nextDouble();
+        double radius = myObject.nextDouble();
 
         // Alan ve cevre hesaplamalari
-        double alan = pi * Math.pow(r, 2);
-        double cevre = 2 * pi * r;
+        double alan = pi * Math.pow(radius, 2);
+        double cevre = 2 * pi * radius;
 
         // the circle Diameter, sphere surface area and sphere volume hesaplamalari
-        double diameter = 2 * r;
-        double sphereVolume = (4.0 / 3.0) * pi * Math.pow(r, 3);
-        double sphereSurfaceArea = 4 * pi * Math.pow(r, 2);
+        double diameter = 2 *radius;
+        double sphereVolume = (4.0 / 3.0) * pi * Math.pow(radius, 3);
+        double sphereSurfaceArea = 4 * pi * Math.pow(radius, 2);
 
         // formatted output
         System.out.println("=== GEOMETRIK HESAPLAYICI ===");
